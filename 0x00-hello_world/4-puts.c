@@ -1,10 +1,19 @@
-1 #include <stdio.h>
-2 /**
-3  *  * main - main block
-4  *   * Return: 0
-5  *    */
-6 int main(void)
-7 {
-8 	puts("\"Programming is like building a multilingual puzzle");
-9	return (0);
-10 }
+/*
+ *  * File: 4-puts.c
+ *   * Auth: Brennan D Baraban <375@holbertonschool.com>
+ *    */
+
+#include <stdio.h>
+
+/**
+ *  * main - Prints "Programming is like building a multilingual
+ *   *                puzzle, followed by a new line.
+ *    *
+ *     * Return: Always 0.
+ *      */
+int main(void)
+{
+		puts("\"Programming is like building a multilingual puzzle");
+
+			return (0);
+}
