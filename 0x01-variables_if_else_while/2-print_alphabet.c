@@ -1,35 +1,23 @@
+/*
+ * File: 2-print_alphabet.c
+ * Auth:Zama Mavundla
+ */
+
 #include <stdio.h>
 
 /**
+ * main - Prints the alphabet in lowercase.
  *
- *  * main - Prints the alphabet.
- *
- *  *
- *
- *  * Return: Always 0 (Success)
- *
- *  */
-
+ * Return: Always 0.
+ */
 int main(void)
-
 {
+	char letter;
 
-	        char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
-	        int i;
+	putchar('\n');
 
-	        for (i = 0; i < 26; i++)
-
-		        {
-
-			                putchar(alp[i]);
-
-			        }
-
-	        putchar('\n');
-
-	        return (0);
-
+	return (0);
 }
-
-
