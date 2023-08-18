@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - test function whether the int is a  positive or negative
- * Return: 0
- */
+* main - test function whether the int is a  positive or negative
+* Return: 0
+*/
 
 int main(void)
 {
