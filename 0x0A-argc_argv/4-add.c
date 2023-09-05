@@ -3,6 +3,13 @@
 #include <string.h>
 #include <ctype.h>
 
+/**
+ *  * main - Entry point of the program.
+ *   * @argc: Number of command-line arguments.
+ *    * @argv: Array of command-line argument strings.
+ *     * Return: 0 if successful, 1 if there's an error.
+ */
+
 int main(int argc, char *argv[])
 {
 	unsigned int i, sum, num;
